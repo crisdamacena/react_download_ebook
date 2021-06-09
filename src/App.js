@@ -11,7 +11,7 @@ function App() {
                 <div className="column book">
                 </div>
                 <div className="column form">
-                  <h1 className="titulo">Download do Gratuito!</h1>
+                  <h1 className="titulo">Download Gratuito!</h1>
                   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim su </h2>
                   <Container maxWidth="sm">
                     <FormularioCadastro aoEnviar={aoEnviarForm} validaCPF={validaCPF} validaNome={validaNome} validaEmail={validaEmail}/>
