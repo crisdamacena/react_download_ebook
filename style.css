@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+}
+body{
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #3a0ca3, #460ca7, #510bab, #5b0bae, #650ab2, #7c03b0, #9000ae, #a200ac, #bd00a3, #d40099, #e7088f, #f72585);
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+
+
+.titulo{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #fff;
+    font-weight: 900;
+}
+
+.text-container{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    transform: translate(-10%,-50%);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.glass{
+    background: #fff;
+    min-height: 65vh;
+    width: 60%;
+    left: 25%;
+    right: 25%;
+    background: linear-gradient(to left bottom, rgba(255,255,255, 0.5), rgba(255,255,255,0.1));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(5rem);
+    display: flex;
+}
+
+
+/*https://coolors.co/f72585-7209b7-3a0ca3-4361ee-4cc9f0*/
