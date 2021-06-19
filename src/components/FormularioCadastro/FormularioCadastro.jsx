@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Button, TextField, Switch, FormControlLabel} from '@material-ui/core';
 import {createMuiTheme, ThemeProvider} from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/teal';
 import blue from '@material-ui/core/colors/blue';
 
 const theme = createMuiTheme({

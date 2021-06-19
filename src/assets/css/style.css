@@ -50,7 +50,7 @@ form{
 }
 .book{
     height: 100vh;
-    background: url(./bgg.jpg);
+    background: url(../img/bgg.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
