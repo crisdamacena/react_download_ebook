@@ -10,6 +10,7 @@
 - [X] CPF input validation 
 - [X] Email input validation
 - [X] Material UI customization
+- [ ] Dashboard
 
 <h1 align="center">
   <img alt="Download eBook Page" src="screenshot.PNG" />
